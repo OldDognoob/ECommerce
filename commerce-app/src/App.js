@@ -1,23 +1,22 @@
 import React from 'react';
-import {BrowserRouter as Router} from 'react-router-dom'
+import GlobalStyle from './globalStyles';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Header from './components/Header'
 import Section from './components/Section'
 import {DataProvider} from './components/Context'
 
-
-class App extends React.Component{
-  render(){
-    return(
-      <DataProvider>
-        <div className="app">
-          <Router>
-            <Header />
-            <Section />
-          </Router>
-        </div>
-      </DataProvider>
-    );
-  }
+function App(){
+  return(
+    <Router>
+      <GlobalStyle/>
+      <Switch>
+      <Route path='/'exact path component={Header}/>
+      <Route path='/section' component={Section}/>
+      <Route path='/dataProvider' component={DataProvider}/>
+      </Switch>
+    </Router>
+  );
 }
-
 export default App;
+
+

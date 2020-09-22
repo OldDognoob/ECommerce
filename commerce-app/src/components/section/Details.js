@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 //colors
 import Colors from "./Colors";
 //css folder
-import "../css/Details.css";
+// import "../css/Details.css";
 
 export class Details extends Component {
   static contextType = DataContext;

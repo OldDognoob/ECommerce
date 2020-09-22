@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 //component
 import { DataContext } from "../Context";
 //css
-import "../css/Products.css";
+// import "../css/Product.css";
 
 export class Products extends Component {
   static contextType = DataContext;

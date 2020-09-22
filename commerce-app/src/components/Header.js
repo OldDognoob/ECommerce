@@ -6,7 +6,7 @@ import Close from './hero/times-solid.svg';
 import CartIcon from './hero/shopping-cart-solid.svg';
 //link
 import {Link} from 'react-router-dom'
-import './css/Header.css'
+// import './css/Header.css'
 import {DataContext} from './Context'
 
 
