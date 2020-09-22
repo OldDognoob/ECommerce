@@ -1,16 +1,16 @@
 
 section .cart{
     position: relative;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(157, 219, 243);
 }
 .amount span{
-    color: crimson;
+    color: rgb(236, 131, 152);
     padding: 0 20px;
 }
 .amount .count{
     width: 40px;
     height: 30px;
-    border: 1px solid #555;
+    border: 1px solid rgb(63, 122, 150);
     outline: none;
     background: transparent;
     cursor: pointer;
@@ -33,7 +33,7 @@ section .cart{
 }
 .total a{
     text-decoration: none;
-    background: #333;
+    background: rgb(209, 122, 122);
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;

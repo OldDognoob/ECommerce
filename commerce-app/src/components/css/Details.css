@@ -32,7 +32,7 @@
 .box .colors button{
     width: 30px;
     height: 30px;
-    border: 1px solid #333;
+    border: 1px solid rgb(62, 114, 173);
     outline: none;
     margin-right: 5px;
     cursor: pointer;
@@ -42,8 +42,8 @@
     margin: 15px 0;
 }
 .box .cart{
-    background: #333;
-    color: white;
+    background: rgb(53, 167, 129);
+    color: rgb(116, 209, 209);
     text-decoration: none;
     padding: 10px 25px;
     display: inline-block;

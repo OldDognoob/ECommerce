@@ -8,7 +8,7 @@ header{
 header .logo a{
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 header nav{
     display: flex;
@@ -20,11 +20,11 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #555;
+    color: rgb(85, 85, 85);
     padding: 0 15px;
 }
 nav ul li a:hover{
-    color: lightseagreen;
+    color: rgb(38, 110, 107);
 }
 nav .nav-cart{
     cursor: pointer;
@@ -34,9 +34,9 @@ nav .nav-cart span{
     position: absolute;
     top:-12px;
     right: -7px;
-    background: crimson;
+    background: rgb(245, 127, 150);
     font-size: 10px;
-    color: white;
+    color: rgb(151, 99, 99);
     padding: 3px 5px;
     border-radius: 50%;
     z-index: -1;
