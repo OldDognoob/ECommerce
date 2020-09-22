@@ -1,9 +1,9 @@
 //react
 import React, { Component } from 'react'
 //components
-import Menu from './hero';
-import Close from './hero';
-import CartIcon from './hero';
+import Menu from './hero/bars-solid.svg';
+import Close from './hero/times-solid.svg';
+import CartIcon from './hero/shopping-cart-solid.svg';
 //link
 import {Link} from 'react-router-dom'
 import './css/Header.css'
